@@ -1,0 +1,17 @@
+package Sets;
+
+import java.util.List;
+
+public class SetRunner {
+	public static void main(String[] args) {
+
+		List<Character> characters = List.of('A', 'S', 'D', 'F', 'Z', 'A', 'R', 'T');
+
+		// unique - Set
+		// Tree
+		// Hash
+		// LinkedHash
+
+	}
+
+}

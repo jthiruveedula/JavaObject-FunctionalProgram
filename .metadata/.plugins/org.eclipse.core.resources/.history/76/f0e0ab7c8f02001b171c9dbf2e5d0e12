@@ -1,0 +1,15 @@
+
+public class Multab {
+
+	void resu() {
+		for(int i=1;i<=10;i++) {
+			System.out.printf("%d * %d = %d", 5,i,5*i).println();
+		}
+	}
+	
+	void resu(int tabName,int tabRange) {
+		for(int i=1;i<=tabRange;i++) {
+			System.out.printf("%d * %d = %d", tabName,i,tabName*i).println();
+		}
+	}
+}

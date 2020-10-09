@@ -1,0 +1,15 @@
+
+public class ArrayRunner {
+	public static void main(String[] args) {
+
+		Student student = new Student(name,ListOfMarks);
+		int number = student.getNumberOfMarks();
+		int sum = student.getTotalSumOfMarks();
+		int maximumMark = student.getMaxMark();
+		int minMark = student.getMinMark();
+		BigDecimal average = student.getAverageMark();
+		
+
+	}
+
+}

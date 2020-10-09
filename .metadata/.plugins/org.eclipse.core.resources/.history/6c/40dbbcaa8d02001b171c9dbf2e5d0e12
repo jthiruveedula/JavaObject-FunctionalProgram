@@ -1,0 +1,13 @@
+
+public class MulRun {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Multab runner = new Multab();
+		
+		runner.resu(6,10);
+
+	}
+
+}

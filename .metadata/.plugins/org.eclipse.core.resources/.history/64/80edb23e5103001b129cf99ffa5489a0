@@ -1,0 +1,12 @@
+
+public class SimpleInterestCalculator {
+
+	public static void main(String[] args) {
+		SimpleInterestCalc calc = new SimpleInterestCalculator("45.643","7.4");
+		BigDecimal totalValue = calc.calculateTotalValue(5);
+		System.out.println(totalsum);
+
+
+	}
+
+}

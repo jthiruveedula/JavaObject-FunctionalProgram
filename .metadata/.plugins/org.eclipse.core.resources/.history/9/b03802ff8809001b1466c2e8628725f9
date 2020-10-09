@@ -1,0 +1,18 @@
+package generics;
+
+public class genericRunner {
+	public static void main(String[] args) {
+		MyCustomList list = new MyCustomList();
+
+		list.addEle("Hello World!");
+		list.addEle("Hello Generic!");
+		list.addEle("Hello Main!");
+		
+
+		System.out.println(list);
+
+
+	}
+
+
+}

@@ -1,0 +1,7 @@
+package adv_oop;
+
+public class FanRunner {
+	public static void main(String[] args) {
+
+	}
+}

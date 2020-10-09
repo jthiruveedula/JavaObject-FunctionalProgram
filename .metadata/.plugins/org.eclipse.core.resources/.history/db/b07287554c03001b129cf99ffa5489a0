@@ -1,0 +1,20 @@
+
+public class BiNumberRunner {
+	
+	private BiNumber numbers = new BiNumber(2,3);
+
+	public BiNumber getNumbers() {
+		return numbers;
+	}
+
+	public void setNumbers(BiNumber numbers) {
+		this.numbers = numbers;
+	}
+	System.out.println(numbers.add());
+	System.out.println(numbers.multiply());
+	System.out.println(numbers.doublen());
+	System.out.println(numbers.getNumber1());
+	System.out.println(numbers.getNumber1());
+	
+
+}

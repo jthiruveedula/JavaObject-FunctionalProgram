@@ -1,0 +1,12 @@
+package Queues;
+
+class StringLengthComparator implements Comparator<String>{
+	
+}
+
+public class QueueRunner {
+	public static void main(String[] args) {
+
+	}
+
+}

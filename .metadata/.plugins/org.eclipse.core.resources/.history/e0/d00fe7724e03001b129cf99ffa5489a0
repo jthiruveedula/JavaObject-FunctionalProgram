@@ -1,0 +1,15 @@
+
+public class BiNumberRunner {
+	
+	public static void main(String[] args) {
+
+		BiNumber numbers = new BiNumber(2, 6);
+		System.out.println(numbers.add());
+
+		System.out.println(numbers.multiply());
+		numbers.doublen();
+		System.out.println(numbers.getNumber1());
+		System.out.println(numbers.getNumber1());
+
+}
+}

@@ -1,0 +1,8 @@
+package collections;
+
+public class StudenCollectionRunner {
+
+	public static void main(String[] args) {
+		
+	}
+}

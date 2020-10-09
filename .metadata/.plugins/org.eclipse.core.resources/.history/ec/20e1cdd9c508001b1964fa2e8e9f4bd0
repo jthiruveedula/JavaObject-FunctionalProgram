@@ -1,0 +1,23 @@
+package collections;
+
+public class Student {
+	private String Student;
+	private int id;
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getStudent() {
+		return Student;
+	}
+
+	public void setStudent(String student) {
+		Student = student;
+	}
+
+}

@@ -1,0 +1,17 @@
+
+interface Flyable {
+	void fly();
+
+}
+
+pubilc class Bird implements Flyable{
+	
+}
+
+
+public class FylableRunner {
+	public static void main(String[] args) {
+		
+	}
+
+}

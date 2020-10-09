@@ -1,0 +1,12 @@
+package collections;
+
+import java.util.List;
+
+public class StudenCollectionRunner {
+
+	public static void main(String[] args) {
+		
+		List<Student> students = List.of(new Student(007, "jagadeesh"), new Student(8, "gayethri"));
+
+	}
+}

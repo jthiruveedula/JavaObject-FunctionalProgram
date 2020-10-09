@@ -1,0 +1,10 @@
+
+public class Mynumber {
+
+	private int number;
+
+	public Mynumber(int number) {
+		this.number = number;
+	}
+
+}

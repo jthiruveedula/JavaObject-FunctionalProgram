@@ -1,0 +1,7 @@
+
+public class MarioGame implements GamingConsole {
+
+	public static void main(String[] args) {
+
+	}
+}

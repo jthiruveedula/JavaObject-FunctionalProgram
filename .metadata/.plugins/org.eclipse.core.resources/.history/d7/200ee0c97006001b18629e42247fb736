@@ -1,0 +1,19 @@
+package oops_level2;
+
+public class Customer {
+
+	// state
+
+	private String name;
+	private Address homeAddress;
+	private Address workAddress;
+
+//creating method
+	public Customer(String name, Address homeAddress) {
+
+		this.name = name;
+		this.homeAddress = homeAddress;
+	}
+
+	// operation
+}

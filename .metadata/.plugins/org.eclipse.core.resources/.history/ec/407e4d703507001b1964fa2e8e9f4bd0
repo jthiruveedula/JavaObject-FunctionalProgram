@@ -1,0 +1,13 @@
+
+public class GamerRunner {
+
+	public static void main(String[] args) {
+
+		MarioGame game = new MarioGame();
+		game.up();
+		game.down();
+		game.left();
+		game.right();
+	}
+
+}

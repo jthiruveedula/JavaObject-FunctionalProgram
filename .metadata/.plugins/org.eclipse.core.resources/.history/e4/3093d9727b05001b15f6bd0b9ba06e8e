@@ -1,0 +1,8 @@
+
+public class WhileNumberPlayer {
+
+	public WhileNumberPlayer(int i) {
+
+	}
+
+}

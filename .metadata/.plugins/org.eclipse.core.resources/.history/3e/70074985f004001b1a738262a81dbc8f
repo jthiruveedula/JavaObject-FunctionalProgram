@@ -1,0 +1,70 @@
+
+public class SwitchPractice {
+
+	public static void main(String[] args) {
+		System.out.println(findingDayinWeek(4));
+
+	}
+
+	public static String findingDayinWeek(int day) {
+		String res="";
+		switch(day) {
+		
+		case 0:
+			return "Sunday";
+
+		case 1:
+			return "Monday";
+
+		case 2:
+			return "Tues";
+
+		case 3:
+			return "Wed";
+
+		case 4:
+			return "Thru";
+
+		case 5:
+			return "Fri";
+
+		case 6:
+			return "Sat";
+
+		
+		}
+		return "Enter Valid Day!";
+
+	}
+
+	public static String findingMonth(int mon) {
+
+		switch (mon) {
+
+		case 0:
+			return "Sunday";
+
+		case 1:
+			return "Monday";
+
+		case 2:
+			return "Tues";
+
+		case 3:
+			return "Wed";
+
+		case 4:
+			return "Thru";
+
+		case 5:
+			return "Fri";
+
+		case 6:
+			return "Sat";
+
+		}
+		return "Enter Valid Day!";
+
+	}
+
+}

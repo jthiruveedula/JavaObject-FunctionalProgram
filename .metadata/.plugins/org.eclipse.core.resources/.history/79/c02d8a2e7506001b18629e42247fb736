@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Employee {
+	
+	private String title;
+	private String employer;
+	private String grade;
+	private BigDecimal salary;
+	
+
+}

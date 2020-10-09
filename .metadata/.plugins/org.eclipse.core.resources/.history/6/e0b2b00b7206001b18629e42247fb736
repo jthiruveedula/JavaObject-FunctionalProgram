@@ -1,0 +1,25 @@
+package oops_level2;
+
+public class Address {
+
+	private String line;
+	private String Street;
+	private String city;
+	private String State;
+
+	public Address(String line, String street, String city, String state) {
+		super();
+		this.line = line;
+		Street = street;
+		this.city = city;
+		State = state;
+	}
+
+	// creation
+
+	@Override
+	public String toString() {
+		return line + ";" + street + ";" + city + ";" + state;
+	}
+
+}

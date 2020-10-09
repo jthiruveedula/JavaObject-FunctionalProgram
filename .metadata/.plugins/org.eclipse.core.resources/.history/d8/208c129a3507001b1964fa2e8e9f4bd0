@@ -1,0 +1,20 @@
+
+public class GamerRunner {
+
+	public static void main(String[] args) {
+
+		MarioGame game = new MarioGame();
+
+		ChessGame chessgame = new ChessGame();
+		game.up();
+		game.down();
+		game.left();
+		game.right();
+
+		chessgame.down();
+		chessgame.up();
+		chessgame.left();
+		chessgame.right();
+	}
+
+}

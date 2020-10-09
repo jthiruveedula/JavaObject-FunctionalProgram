@@ -1,0 +1,12 @@
+package inheritance;
+
+import java.math.BigDecimal;
+
+public class Employee {
+
+	private String title;
+	private String employer;
+	private String grade;
+	private BigDecimal salary;
+
+}

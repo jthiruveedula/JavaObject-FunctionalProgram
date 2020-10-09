@@ -1,0 +1,40 @@
+
+public class SwitchPractice {
+
+	public static void main(String[] args) {
+		System.out.println(findingDay(7));
+
+	}
+
+	public static String findingDay(int day) {
+		String res="";
+		switch(day) {
+		
+		case 0:
+			return "Sunday";
+			break;
+		case 1:
+			return "Monday";
+			break;
+		case 2:
+			return "Tues";
+			break;
+		case 3:
+			return "Wed";
+			break;
+		case 4:
+			return "Thru";
+			break;
+		case 5:
+			return "Fri";
+			break;
+		case 6:
+			return "Sat";
+			break;
+		
+		}
+		return "Enter Valid Day!";
+
+	}
+
+}

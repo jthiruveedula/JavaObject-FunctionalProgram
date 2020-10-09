@@ -1,0 +1,10 @@
+package adv_oop;
+
+public class Fan {
+	//State of the object
+	private String make;
+	private double radius;
+	private String color;
+	p
+
+}

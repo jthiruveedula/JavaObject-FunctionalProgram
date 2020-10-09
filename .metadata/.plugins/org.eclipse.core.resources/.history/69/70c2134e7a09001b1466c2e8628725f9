@@ -1,0 +1,15 @@
+package Queues;
+
+import java.util.Comparator;
+
+class StringLengthComparator implements Comparator<String> {
+@Override
+public int compare(String value1,String value2)
+}
+
+public class QueueRunner {
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class BiNumber {
+
+	public BiNumber(int number1, int number2) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

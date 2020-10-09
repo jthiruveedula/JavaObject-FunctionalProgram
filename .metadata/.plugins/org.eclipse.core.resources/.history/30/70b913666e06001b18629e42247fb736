@@ -1,0 +1,14 @@
+package adv_oop;
+
+public class Rectangle {
+	
+	private int leng;
+	private int width;
+
+	public Rectangle(int leng, int width) {
+		this.leng = leng;
+		this.width = width;
+		
+	}
+
+}

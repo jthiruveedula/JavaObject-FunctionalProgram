@@ -1,0 +1,9 @@
+package generics;
+
+public class genericRunner {
+	public static void main(String[] args) {
+
+	}
+
+
+}

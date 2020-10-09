@@ -1,0 +1,8 @@
+package oops_level2;
+
+public class CustomerRunner {
+	public static void main(String[] args) {
+		
+	}
+
+}

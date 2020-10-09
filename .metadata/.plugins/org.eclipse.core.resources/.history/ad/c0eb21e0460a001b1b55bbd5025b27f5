@@ -1,0 +1,7 @@
+package functionalprogramming;
+
+public class FunctionalProgrammingRunner {
+	public static void main(String[] args) {
+
+	}
+}

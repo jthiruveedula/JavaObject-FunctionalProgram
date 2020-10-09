@@ -1,0 +1,12 @@
+
+public class IfStatementRunner {
+
+	public static void main(String[] args) {
+		int i = 45;
+		if (i == 45) {
+			System.out.println("i = 25");
+		}
+
+	}
+
+}

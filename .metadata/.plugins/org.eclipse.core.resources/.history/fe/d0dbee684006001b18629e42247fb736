@@ -1,0 +1,21 @@
+import java.math.BigDecimal;
+
+public class ArrayRunner {
+	public static void main(String[] args) {
+		int[] marks = { 90, 95, 99 };
+		String name = "Jagadeesh";
+
+		Student student = new Student(name, marks);
+		int number = student.getNumberOfMarks();
+		System.out.println(number);
+		int sum = student.getTotalSumOfMarks();
+		System.out.println(sum);
+		int maximumMark = student.getMaxMark();
+		System.out.println(maximumMark);
+		int minMark = student.getMinMark();
+		System.out.println(minMark);
+		BigDecimal average = student.getAverageMark();
+
+	}
+
+}

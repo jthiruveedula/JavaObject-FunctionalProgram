@@ -1,0 +1,25 @@
+package oop;
+
+public class Book {
+
+	private int noOfCopies;
+
+	public int getNoOfCopies() {
+		return noOfCopies;
+	}
+
+	public void setNoOfCopies(int noOfCopies) {
+		if (noOfCopies > 1)
+		this.noOfCopies = noOfCopies;
+		System.out.println(this.noOfCopies);
+	}
+	public void increaseCopies(int copies) {
+		this.noOfCopies = noOfCopies + copies;
+	}
+	
+	public void decreaseCopies(int copies) {
+		this.noOfCopies = noOfCopies + copies;
+	}
+
+
+}

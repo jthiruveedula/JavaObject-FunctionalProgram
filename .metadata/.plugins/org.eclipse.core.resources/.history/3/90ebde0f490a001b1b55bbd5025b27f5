@@ -1,0 +1,7 @@
+package functionalprogramming;
+
+public class SumOfOddNumbers {
+	public static void main(String[] args) {
+
+	}
+}

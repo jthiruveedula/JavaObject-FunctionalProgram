@@ -1,0 +1,12 @@
+import java.math.BigDecimal;
+
+public class SimpleInterestCalc {
+
+	public SimpleInterestCalc(String principal, String interest) {
+
+		BigDecimal principal = new BigDecimal(principal);
+		BigDecimal interest = new BigDecimal(interest);
+
+	}
+
+}

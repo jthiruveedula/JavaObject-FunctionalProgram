@@ -1,0 +1,21 @@
+package oop;
+
+public class Book {
+	
+	void ComputerProgramming() {
+		
+		System.out.println("Book:- ComputerProgramming");
+	}
+	
+void EffectiveJava() {
+		
+		System.out.println("Book:- EffectiveJava");
+	}
+
+void CleanCode() {
+	
+	System.out.println("Book:- CleanCode");
+}
+	
+
+}

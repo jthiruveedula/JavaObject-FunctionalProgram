@@ -1,0 +1,14 @@
+
+public class UserIneraction {
+
+	public static void main(String[] args) {
+
+
+	}
+
+	public static Scanner() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("user input is :- "+input);
+	}
+	
+}

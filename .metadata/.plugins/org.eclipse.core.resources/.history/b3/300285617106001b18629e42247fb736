@@ -1,0 +1,13 @@
+package oops_level2;
+
+public class CustomerRunner {
+	public static void main(String[] args) {
+		
+		Address homeAddress = new Address("line1", "Carmaleram", "Bangalore", "Karanataka");
+		Customer customer = new Customer("Jagadeesh", homeAddress);
+
+		Address workAddress = new Address("Wipro", "Kodathi", "Bangalore", "Karanataka");
+
+	}
+
+}

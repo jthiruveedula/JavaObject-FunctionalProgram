@@ -1,0 +1,15 @@
+package oop;
+
+public class Book {
+
+	private int noOfCopies;
+
+	public void setNoOfCopies(int noOfCopies) {
+
+		this.noOfCopies = noOfCopies;
+
+		System.out.println("Copies:-" + noOfCopies);
+	}
+
+
+}

@@ -1,0 +1,10 @@
+
+public class BiNumber {
+
+	public BiNumber(int number1, int number2) {
+		// TODO Auto-generated constructor stub
+		this.number1= number1;
+		this.number2=number1;
+	}
+
+}

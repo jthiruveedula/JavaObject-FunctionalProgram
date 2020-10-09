@@ -1,0 +1,10 @@
+package HashMaps;
+
+public class MapRunner {
+	public static void main(String[] args) {
+		
+		String str="this is good day. "+"this has never happened"
+
+	}
+
+}

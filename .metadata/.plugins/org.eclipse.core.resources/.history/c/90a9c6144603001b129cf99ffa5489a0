@@ -1,0 +1,19 @@
+package oop;
+
+public class SelectBook {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Book ComputerProgramming = new Book();
+		Book CleanCode = new Book();
+		Book EffectiveProgamming = new Book();
+
+		ComputerProgramming.increaseCopies(10);
+
+		ComputerProgramming.setNoOfCopies(20);
+		System.out.println(ComputerProgramming.getNoOfCopies());
+
+	}
+
+}

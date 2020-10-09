@@ -1,0 +1,15 @@
+
+public class WhileNumberPlayer {
+
+	private int number;
+
+	public WhileNumberPlayer(int number) {
+		this.number = number;
+	}
+
+	public void printSquaresUptoLimit() {
+
+
+	}
+
+}

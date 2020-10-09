@@ -1,0 +1,12 @@
+
+public class MyPrimeRunner {
+
+	public static void main(String[] args) {
+		MyNumber number = new Mynumber(6);
+		boolean isPrime = number.isPrime();
+		System.out.println("isPrime:"+ isPrime);
+
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class PlayWithChars {
+
+	public static void main(String[] args) {
+		
+		MyChar myChar = new MyChar('c');
+		System.out.println(mychar.isVowel()); //'a','e','i','o' and 'u' in both cases
+		System.out.println(mychar.isNumber());
+		System.out.println(mychar.isAlphabet());
+		MyChar.printLoweCaseAlphabets();
+		MyChar.printUpperCaseAlphabets();
+		
+		
+		
+
+	}
+
+}

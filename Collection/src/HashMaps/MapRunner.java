@@ -1,0 +1,48 @@
+package HashMaps;
+
+import java.util.Scanner;
+import java.util.TreeMap;
+
+public class MapRunner {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter a text: ");
+
+		String str = scanner.nextLine();
+		System.out.println(str);
+
+		// String str = "this is good day. " + "this has never happened";
+		TreeMap<Character, Integer> occurances = new TreeMap<>();
+		String str2 = str.replace(".", " ");
+		char[] characters = str2.toCharArray();
+		for (char chara : characters) {
+			//getting characters from array and iretarting that for counting 
+			Integer integer = occurances.get(chara);
+			if (integer == null) {
+				occurances.put(chara, 1);
+
+			} else {
+				occurances.put(chara, integer + 1);
+			}
+		}
+		System.out.println(occurances);
+		
+		
+		TreeMap<String, Integer> stringoccurances = new TreeMap<>();
+		String str1 = str.replace(".", "");
+		String[] words = str1.split(" ");
+		for (String chara : words) {
+			//getting characters from array and iretarting that for counting 
+			Integer integer = stringoccurances.get(chara);
+			if (integer == null) {
+				stringoccurances.put(chara, 1);
+
+			} else {
+				stringoccurances.put(chara, integer + 1);
+			}
+		}
+		System.out.println(stringoccurances);
+	}
+
+}

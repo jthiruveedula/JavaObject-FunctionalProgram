@@ -1,0 +1,23 @@
+package HashMaps;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapRunner {
+	public static void main(String[] args) {
+		
+		String str = "this is good day. " + "this has never happened";
+		Map<Charcter, Integer> occurances = new HashMap<>();
+		char[] characters = str.toCharArray();
+		for (char chara : characters) {
+			//getting characters from array and iretarting that for counting 
+			Integer integer = occurances.get(chara);
+			if (integer == null) {
+				occurances.put(chara, 1);
+
+			}
+		}
+
+	}
+
+}

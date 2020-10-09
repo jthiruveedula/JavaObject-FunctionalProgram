@@ -1,0 +1,8 @@
+package oops_level2;
+
+public class Customer {
+
+	private String name;
+	private Address address;
+
+}

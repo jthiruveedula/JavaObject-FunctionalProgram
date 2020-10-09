@@ -1,0 +1,40 @@
+package adv_oop;
+
+public class Rectangle {
+	
+	private int leng;
+	private int width;
+
+	public int getLeng() {
+		return leng;
+	}
+
+	public void setLeng(int leng) {
+		this.leng = leng;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public Rectangle(int leng, int width) {
+		this.leng = leng;
+		this.width = width;
+		
+	}
+
+	public int area() {
+		return leng * width;
+
+	}
+
+	public int perimeter() {
+		return leng * width * 2;
+
+	}
+
+}

@@ -1,0 +1,45 @@
+
+import java.util.Scanner;
+
+public class UserIneraction {
+
+	public static void main(String[] args) {
+
+
+	}
+
+	public static void Scanner() {
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Enter input ");
+		int number1 = scanner.nextInt();
+		System.out.println(number1 + " Selected by user");
+	}
+	public static void Choice() {
+
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Welcome to MyCalc :)");
+		System.out.println("Choose Your Inputs");
+
+		System.out.println("Enter Number1:");
+		int number1 = scanner.nextInt();
+		System.out.println("Enter Number1:");
+		int number2 = scanner.nextInt();
+		
+		System.out.println(""
+				+ "Select you Choice from Below Menu"
+				+ "1--> Addition"
+				+ "2--> Subtraaction"
+				+ "3--> Multiplication"
+				+ "4--> Division");
+		int choice = scanner.nextInt();
+		
+		if (choice==1) {
+			System.out.printf("Addition of %d + %d = %d",number1,number2,number2+number1).println();
+		}
+		
+		
+	}
+}

@@ -1,0 +1,12 @@
+package oops_level2;
+
+public class Address {
+
+	private String line;
+	private String Street;
+	private String city;
+	private String State;
+
+	// creation
+
+}

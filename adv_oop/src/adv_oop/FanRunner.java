@@ -1,0 +1,19 @@
+package adv_oop;
+
+public class FanRunner {
+	public static void main(String[] args) {
+
+		Fan fan = new Fan("Orient", 0.345, "Blue");
+		fan.switchOn();
+
+		System.out.println(fan);
+		fan.switchOff();
+
+		System.out.println(fan);
+
+//		fan.switchOn();
+
+		fan.setSpeed((byte) 3);
+		System.out.println(fan);
+	}
+}

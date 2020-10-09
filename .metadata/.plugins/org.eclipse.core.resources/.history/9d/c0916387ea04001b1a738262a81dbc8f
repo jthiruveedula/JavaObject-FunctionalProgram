@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class UserIneraction {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void Scanner() {
+
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.println("Enter input ");
+		int number1 = scanner.nextInt();
+		System.out.println(number1 + " Selected by user");
+	}
+
+}

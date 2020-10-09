@@ -1,0 +1,8 @@
+package generics;
+
+public class MyCustomList {
+	ArrayList<String> list = new ArrayList<>();
+	
+
+
+}

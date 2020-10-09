@@ -1,0 +1,9 @@
+package functionalprogramming;
+
+public class SumOfOddNumbers {
+	public static void main(String[] args) {
+
+		List<Integer> list = List.of(1, 2, 3, 5, 6, 7, 8, 32, 45);
+
+	}
+}

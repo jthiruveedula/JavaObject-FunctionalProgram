@@ -1,0 +1,18 @@
+
+public class WhileNumberPlayer {
+
+	private int number;
+
+	public WhileNumberPlayer(int number) {
+		this.number = number;
+	}
+
+	// for limit =30, output would be 1 4 9 16 25
+	public void printSquaresUptoLimit() {
+		int value =0;
+		while
+
+
+	}
+
+}

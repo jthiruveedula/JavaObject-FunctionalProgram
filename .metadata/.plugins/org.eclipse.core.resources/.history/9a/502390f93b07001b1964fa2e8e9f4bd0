@@ -1,0 +1,11 @@
+
+abstract class Animal{
+	abstract void bark();
+}
+
+public class AnimalRunner {
+	public static void main(String[] args) {
+
+	}
+
+}
