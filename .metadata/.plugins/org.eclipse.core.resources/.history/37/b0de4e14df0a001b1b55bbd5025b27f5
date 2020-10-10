@@ -1,0 +1,28 @@
+package exceptionHandling;
+
+import java.util.Scanner;
+
+public class FinallyRunner {
+	public static void main(String[] args) {
+
+		Scanner scanner = null;
+		try {
+
+			scanner = new Scanner(System.in);
+
+		int[] i = { 1, 3, 5, 2 };
+		int num = i[5];
+
+
+	} catch (ArrayIndexOutOfBoundsException e) {
+		System.out.println("ArrayIndexOutOfBoundsException");
+		e.printStackTrace();
+	}
+	finally {
+		System.out.println("Closing Scanner");
+		scanner.close();
+
+
+	}
+	}
+}

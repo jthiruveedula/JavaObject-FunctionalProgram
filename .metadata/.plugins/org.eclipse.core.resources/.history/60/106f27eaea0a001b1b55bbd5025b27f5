@@ -1,0 +1,16 @@
+package filehandling;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class DirectoryScanRunner {
+	public static void main(String[] args) throws IOException {
+
+//		Files.list(Paths.get(".")).forEach(System.out::println);
+		Path currentdir = Path.get(".");
+
+		Files.walk(currentdir, 2).forEach(System.out::println);
+	}
+
+}

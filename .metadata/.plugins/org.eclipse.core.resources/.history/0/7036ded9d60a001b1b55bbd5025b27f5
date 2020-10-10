@@ -1,0 +1,22 @@
+package threads;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
+
+
+
+public class ExecutorServiceRunner {
+	public static void main(String[] args) {
+		ExecutorService executorService = Executors.newFixedThreadPool(3);
+		executorService.execute(new Task(2));
+		
+		
+		
+		
+		
+		executorService.shutdown();
+
+	}
+
+}

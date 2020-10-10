@@ -1,0 +1,23 @@
+package functionalprogramming;
+
+import java.util.List;
+import java.util.function.Predicate;
+
+public class PredicateClass {
+	public static void main(String[] args) {
+		
+		List.of(1, 2, 5, 4, 64, 23, 744, 23, 478).stream().filter(e -> e % 2 == 0)
+				.forEach(e -> System.out.println(e));
+
+		// Stream<T> filter(Predicate<? super T> predicate);
+		// boolean test(T t);
+
+	}
+}
+
+class EvenNumberPredicate implements Predicate<Integer> {
+@Override
+public boolean test(Integer num) {
+	return num % 2 == 0;
+}
+}

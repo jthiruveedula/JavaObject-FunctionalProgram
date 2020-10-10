@@ -1,0 +1,9 @@
+package exceptionHandling;
+
+public class CheckExceptionRunner {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

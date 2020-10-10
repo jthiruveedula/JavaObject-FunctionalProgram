@@ -1,0 +1,8 @@
+package functionalprogramming;
+
+public class MethodRefeRunner {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package exceptionHandling;
+
+public class ExceptionThrowing {
+	public static void main(String[] args) {
+
+	}
+
+}

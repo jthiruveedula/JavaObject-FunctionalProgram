@@ -1,0 +1,13 @@
+package exceptionHandling;
+
+import java.util.Scanner;
+
+public class FinallyRunner {
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		int[] i = { 1, 3, 5, 2 };
+
+	}
+}

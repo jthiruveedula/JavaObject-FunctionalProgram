@@ -1,0 +1,12 @@
+package filehandling;
+
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class FileWriter {
+	public static void main(String[] args) {
+
+		Path filepath = Paths.get("./files/write.txt");
+
+	}
+}

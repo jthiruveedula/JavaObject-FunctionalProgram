@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MultipleCallableRunner.java&apos; to &apos;threads.MultipleCallableRunner.java&apos;&#x0D;&#x0A;- Original project: &apos;Threads&apos;&#x0D;&#x0A;- Destination element: &apos;threads.MultipleCallableRunner.java&apos;&#x0D;&#x0A;- Original element: &apos;threads.MultipleCallableRunner.java&apos;" description="Copy compilation unit" destination="/src&lt;threads{MultipleCallableRunner.java" element1="/src&lt;threads{MultipleCallableRunner.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1602322139357" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package exceptionHandling;
+
+public class ExceptionHandlingRunner {
+
+	public static void main(String[] args) {
+
+		extracted1();
+	}
+
+	private static void extracted1() {
+		extracted();
+	}
+
+	private static void extracted() {
+		String str = null;
+		str.length();
+	}
+}

@@ -1,0 +1,16 @@
+package enums;
+
+enum Season {
+	SUMMER, WINTER, SPRING, FALL;
+}
+public class EnumRunner {
+	public static void main(String[] args) {
+
+//	Season season =Season.FALL;
+
+		System.out.println(Season.valueOf("WINTER"));
+		System.out.println(Season.SUMMER.ordinal());
+
+	}
+
+}

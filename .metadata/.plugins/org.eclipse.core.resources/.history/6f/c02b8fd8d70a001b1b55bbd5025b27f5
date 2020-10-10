@@ -1,0 +1,13 @@
+package threads;
+
+class CallableTask implements Callable<String>{
+	
+}
+
+public class CallableRunner {
+
+	public static void main(String[] args) {
+
+	}
+
+}

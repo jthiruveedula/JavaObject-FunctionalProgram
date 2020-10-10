@@ -1,0 +1,33 @@
+package exceptionHandling;
+
+class Amount {
+
+	private String currency;
+	private int amont;
+
+	public Amount(String currency, int amont) {
+		super();
+		this.currency = currency;
+		this.amont = amont;
+	}
+
+	public void add(Amount that) {
+		this.amount = this.amont + that.amont;
+	}
+
+	@Override
+	public String toString() {
+		return amount + " " + currency;
+	}
+}
+
+public class ExceptionThrowing {
+	public static void main(String[] args) {
+
+		Amount amount1 = new Amount("USD", 100);
+		Amount amount2 = new Amount("USD", 100);
+		amount1.add(amount2);
+
+	}
+
+}

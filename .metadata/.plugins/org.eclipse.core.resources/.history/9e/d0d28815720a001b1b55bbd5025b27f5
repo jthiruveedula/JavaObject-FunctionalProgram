@@ -1,0 +1,56 @@
+/// extends thread
+//implements runnable
+
+package threads;
+
+import java.util.stream.IntStream;
+
+class Task1 extends Thread{
+	@Override
+	public void run() {
+		System.out.println("Task1 Started");
+		int sum = IntStream.range(1, 100).reduce(0, (n1, n2) -> n1 + n2);
+
+		System.out.println("Task1 Completed:-" + sum);
+	}
+	
+}
+
+class Task2 implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Task2 Started");
+		int sum1 = IntStream.range(100, 201).reduce(0, (n1, n2) -> n1 + n2);
+		System.out.println("Task2 Completed:-" + sum1);
+
+	}
+
+}
+
+public class ThreadsRunner {
+	public static void main(String[] args) {
+		
+		Task1 task1 = new Task1();
+		task1.start();
+		Task2 task2= new Task2();
+		Thread thread = new Thread(task2);
+		thread.start();
+		
+		Task3 task3= new Task3();
+		Thread thread1 = new Thread(task3);
+		thread1.start();
+
+		System.out.println("Task3 Started");
+		int sum2 = IntStream.range(200, 301).reduce(0, (n1, n2) -> n1 + n2);
+		System.out.println(sum2);
+		System.out.println("Task3 Completed");
+		int sum3 = IntStream.range(300, 401).reduce(0, (n1, n2) -> n1 + n2);
+		System.out.println(sum3);
+		int sum4 = IntStream.range(400, 501).reduce(0, (n1, n2) -> n1 + n2);
+		System.out.println(sum4);
+
+	}
+
+}

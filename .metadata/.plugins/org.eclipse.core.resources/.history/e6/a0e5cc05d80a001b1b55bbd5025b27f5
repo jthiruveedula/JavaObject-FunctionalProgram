@@ -1,0 +1,20 @@
+package threads;
+
+import java.util.concurrent.Callable;
+
+class CallableTask implements Callable<String> {
+
+	private String name;
+
+	public CallableTask(String name) {
+		this.name = name;
+	}
+}
+
+public class CallableRunner {
+
+	public static void main(String[] args) {
+
+	}
+
+}

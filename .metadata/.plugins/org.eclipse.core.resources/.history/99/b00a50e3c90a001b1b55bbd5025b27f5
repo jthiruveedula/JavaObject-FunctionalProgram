@@ -1,0 +1,23 @@
+package threads;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
+
+public class ExecutorServiceRunner {
+	public static void main(String[] args) {
+		ExecutorService executorService = Executors.newSingleThreadExecutor();
+		executorService.execute(new Task1());
+		executorService.execute(new Thread(new Task2()));
+		
+		
+		System.out.println("Exe Started");
+		int exe = IntStream.range(200, 301).reduce(0, (n1, n2) -> n1 + n2);
+
+		System.out.println("Exe Completed:-" + exe);
+		
+		executorService.shutdown(); 
+
+	}
+
+}

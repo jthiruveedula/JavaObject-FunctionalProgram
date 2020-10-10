@@ -1,0 +1,11 @@
+package tips;
+
+import static java.util.System.out;
+
+public class ImportRunner {
+	public static void main(String[] args) {
+		
+		out.println("hwll");
+	}
+	
+}

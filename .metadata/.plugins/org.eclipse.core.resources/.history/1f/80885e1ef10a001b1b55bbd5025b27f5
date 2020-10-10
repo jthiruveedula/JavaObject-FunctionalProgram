@@ -1,0 +1,11 @@
+package filehandling;
+
+import java.nio.file.Path;
+
+public class FileReadRunner {
+	public static void main(String[] args) {
+
+		Path filpath = new Path.get("./files/test.txt");
+
+	}
+}

@@ -1,0 +1,10 @@
+package threads;
+
+import java.util.concurrent.Future;
+
+public class MultipleCallableRunner {
+	public static void main(String[] args) {
+
+		Future<String> welcomeFuture = executor.submit(new CallableTask("Jagadeesh"));
+	}
+}

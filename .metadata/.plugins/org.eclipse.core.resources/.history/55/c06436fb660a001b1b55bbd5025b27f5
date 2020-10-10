@@ -1,0 +1,12 @@
+package functionalprogramming;
+
+import java.util.List;
+
+public class PredicateClass {
+	public static void main(String[] args) {
+		
+		List.of(1, 2, 5, 4, 64, 23, 74754, 23, 478).stream().filter(e -> e % 2 == 0)
+				.forEach(e -> System.out.println(e));
+
+	}
+}

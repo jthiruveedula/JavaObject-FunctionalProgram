@@ -1,0 +1,8 @@
+package filehandling;
+
+public class DirectoryScanRunner {
+	public static void main(String[] args) {
+		
+	}
+
+}

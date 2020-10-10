@@ -1,0 +1,17 @@
+package threads;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
+public class MultipleCallableRunner {
+	public static void main(String[] args) {
+
+		ExecutorService executor = Executors.newFixedThreadPool(1);
+
+		List<CallableTask> list = List.of(new CallableTask("Jagadeesh"), new CallableTask("Thiruveedula"),
+				new CallableTask("Calling"));
+
+		Future<String> welcomeFuture = executor.submit(new CallableTask("Jagadeesh"));
+	}
+}
